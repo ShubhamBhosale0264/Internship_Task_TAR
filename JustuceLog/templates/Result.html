@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JusticeLog | Case Information</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="result-container">
+    <h1>JusticeLog Case Summary</h1>
+
+    <section class="case-info">
+      <h2>Case Information</h2>
+      <p><strong>Parties:</strong> {{ data.parties }}</p>
+      <p><strong>Next Hearing:</strong> {{ data.hearing }}</p>
+      <p><strong>Download:</strong> <a href="{{ data.pdf_link }}" target="_blank">Latest Order PDF</a></p>
+    </section>
+
+    <footer>
+      <p>📘 Data fetched and processed securely.</p>
+    </footer>
+  </main>
+</body>
+</html>

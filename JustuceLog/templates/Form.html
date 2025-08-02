@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JusticeLog | Query Case Details</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>JusticeLog Case Query Form</h1>
+
+    <section>
+      <h2>Enter Case Information</h2>
+      <form action="/fetch" method="POST">
+        <label for="case_type">Case Type</label>
+        <select name="case_type" id="case_type" required>
+          <option value="WP">Writ Petition</option>
+          <option value="CS">Civil Suit</option>
+        </select>
+
+        <label for="case_number">Case Number</label>
+        <input type="text" name="case_number" id="case_number" placeholder="Enter Case Number" required>
+
+        <label for="filing_year">Filing Year</label>
+        <input type="text" name="filing_year" id="filing_year" placeholder="YYYY" required>
+
+        <button type="submit">Fetch Case Details</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
