@@ -90,6 +90,9 @@ No illegal bypasses — just smart automation.
 - Scraping is performed using Playwright for automation and BeautifulSoup for content parsing.
 - Database stores data in SQLite for lightweight management.
 - Additional tools include dotenv for managing environment variables, logging for debugging, and a PDF parser to extract information from documents.
+## note 
+
+I utilized Microsoft Copilot as a development aid to troubleshoot issues and structure the application in a professional manner. I also leveraged its suggestions to create a clear and engaging README file, incorporating relevant emoticons for better presentation. This process not only enhanced the overall quality and presentation of the project but also helped me strengthen my prompt engineering skills and accelerate the rapid development of the application.
 
 
 # 📹 Demo Video
